@@ -4,6 +4,11 @@ on:
     branches:
     - main
 
+permissions:
+  content: read
+  packages: write
+  id-token: write
+
 jobs:
   release:
     name: Release
