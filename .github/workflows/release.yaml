@@ -12,7 +12,7 @@ permissions:
 jobs:
   release:
     name: Release
-    uses: aquasecurity/trivy/.github/workflows/reusable-release.yaml@main
+    uses: aquasecurity/trivy/.github/workflows/reusable-release.yaml@55fa6109cd0463fd3221aae41ca7b1d8c44ad430
     with:
       goreleaser_config: goreleaser.yml
       goreleaser_options: '--clean --timeout 90m'
