@@ -17,3 +17,4 @@ jobs:
       goreleaser_config: goreleaser.yml
       goreleaser_options: '--clean --timeout 90m'
     secrets: inherit
+
