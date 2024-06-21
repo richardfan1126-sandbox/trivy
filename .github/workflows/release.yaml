@@ -7,7 +7,7 @@ on:
 jobs:
   release:
     name: Release
-    uses: aquasecurity/trivy/blob/main/.github/workflows/reusable-release.yaml
+    uses: aquasecurity/trivy/blob/main/.github/workflows/reusable-release.yaml@main
     with:
       goreleaser_config: goreleaser.yml
       goreleaser_options: '--clean --timeout 90m'
